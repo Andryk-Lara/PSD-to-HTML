@@ -4,116 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PSD to HTML</title>
+    <link rel="stylesheet" href="/Ejercicio/css/styles.css">
 </head>
 
 <body>
-    <div>
-        <div class="cabecera">
-            <div class="correo">
-                <p>info@CreativeStudio.com</p>
-            </div>
-            <div class="logo">
-                <img src="/img/logo.png" alt="logo de creative studio">
+    <div class="wrapper">
+        <div class="header clearfix">         
+            <div class="logo1">
+                <img src="/Ejercicio/img/logo.png" alt="logo de creative studio">
             </div>
             <div class="menu">
-                <a href="https:/www.google.com">HOME</a>
-                <a href="https:/www.google.com">ABOUT US</a>
-                <a href="https:/www.google.com">PORTFOLIO</a>
-                <a href="https:/www.google.com">SERVICES</a>
-                <a href="https:/www.google.com">BLOG</a>
-                <a href="https:/www.google.com">CONTACT US</a>
+                <a href="mailto:info@creativStudio.com" id="menu-link-email">info@CreativeStudio.com</a>
+                <ul id="menu-list" class="clearfix">
+					<li><a href="https:/www.google.com">Home</a></li>
+					<li><a href="https:/www.google.com">About us</a></li>
+					<li><a href="https:/www.google.com">Portfolio</a></li>
+					<li><a href="https:/www.google.com">Service</a></li>
+					<li><a href="https:/www.google.com">Blog</a></li>
+					<li><a href="https:/www.google.com">Contact us</a></li>
+				</ul>
             </div>
         </div>
         <div class="imagenPrincipal">
-            <a title="View Portfolio" href="https:/www.google.com"><img src="/img/img.jpg"  alt="imagen principal"></a>
+            <a title="View Portfolio" href="https:/www.google.com"><img src="/Ejercicio/img/img.jpg"  alt="imagen principal"></a>
         </div>
         <hr>
-        <div class="mainContent">
-            <div class="aboutUs">
-                <div class="subtitle">
-                    <img src="/img/arrow.png" alt="flecha">
-                    <h2>ABOUT US</h2>
+        <div class="mainContent clearfix">
+            
+            <div class="box">
+                    <h2>About us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta
+                        posuere quis massa. Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem
+                        lobortis scelerisque. Praesent eget consequat libero. </p>
+                    <img src="/Ejercicio/img/arrow.png" alt="flecha">
+                    <a href="#">Read</a>
                 </div>
-                <div class="subtitleInformation">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, mollitia! Hic saepe ut facere laboriosam magnam voluptatibus, officia corporis accusantium beatae nostrum perferendis! Quibusdam provident quasi, earum non a dolor?</p>
-                    <img src="/img/arrow.png" alt="flecha">
-                    <a href="https:/www.google.com">READ</a>
+                <div class="box">
+                    <h2>Our benefits</h2>
+                    <ul id="box-benefits-list">
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada
+                                porta
+                                posuere quis massa. </p>
+                        </li>
+                        <li>
+                            <p>Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem lobortis
+                                scelerisque. Praesent eget consequat</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada
+                                porta
+                                posuere quis massa. </p>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-            <div class="ourBenefits">
-                <div class="subtitle">
-                    <img src="/img/arrow.png" alt="flecha">
-                    <h2>OUR BENEFITS</h2>
-                </div>
-                <div class="subtitleInformatios">
-                    <img src="/img/check.png" alt="checkbox">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, mollitia! Hic saepe ut facere laboriosam magnam voluptatibus, officia corporis accusantium beatae nostrum perferendis! Quibusdam provident quasi, earum non a dolor?</p>   
-                    
-                    <img src="/img/check.png" alt="checkbox">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, mollitia! Hic saepe ut facere laboriosam magnam voluptatibus, officia corporis accusantium beatae nostrum perferendis! Quibusdam provident quasi, earum non a dolor?</p>
-                    
-                    <img src="/img/check.png" alt="checkbox">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, mollitia! Hic saepe ut facere laboriosam magnam voluptatibus, officia corporis accusantium beatae nostrum perferendis! Quibusdam provident quasi, earum non a dolor?</p>
-                </div>
-            </div>
-            <div class="testimonials">
-                <img src="/img/arrow.png" alt="flecha">
-                <h2>TESTIMONIALS</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, mollitia! Hic saepe ut facere laboriosam magnam voluptatibus, officia corporis accusantium beatae nostrum perferendis! Quibusdam provident quasi, earum non a dolor?</p>
-                <p><i>Rafi, Graphicsfuel.com</i></p>
+                <div class="box">
+                    <h2>Testimonials</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta
+                        posuere quis massa. Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem
+                        lobortis scelerisque. </p>
+                    <i>Rafi, Graphicsfuel.com</i>    
             </div>
         </div>
-        <hr>
-        <div class="portfolio">
-            <div class="subtitle">
-                <img src="/img/arrow.png" alt="flecha">
-                <h2>OUR PORTFOLIO</h2>
-            </div>
+        <div class="portfolio clearfix">     
+            <h2>OUR PORTFOLIO</h2>
             <div class="trabajos">
-                <a title="Portfolio 1" href="https:/www.google.com"><img src="/img/portfolio1.jpg"  alt="Portafolio 1"></a>
-                <a title="Portfolio 2" href="https:/www.google.com"><img src="/img/portfolio-2.jpg"  alt="Portafolio 2"></a>
-                <a title="Portfolio 3" href="https:/www.google.com"><img src="/img/portfolio-3.jpg"  alt="Portafolio 3"></a>
-                <a title="Portfolio 4" href="https:/www.google.com"><img src="/img/portfolio-4.jpg"  alt="Portafolio 4"></a>
+                <a title="Portfolio 1" href="https:/www.google.com"><img src="/Ejercicio/img/portfolio1.jpg"  alt="Portafolio 1"></a>
+                <a title="Portfolio 2" href="https:/www.google.com"><img src="/Ejercicio/img/portfolio-2.jpg"  alt="Portafolio 2"></a>
+                <a title="Portfolio 3" href="https:/www.google.com"><img src="/Ejercicio/img/portfolio-3.jpg"  alt="Portafolio 3"></a>
+                <a title="Portfolio 4" href="https:/www.google.com"><img src="/Ejercicio/img/portfolio-4.jpg"  alt="Portafolio 4"></a>
             </div>
         </div>
-        <hr>
-        <div class="blog">
-            <div class="blogUpdates">
-                <div class="subtitle">
-                    <img src="/img/arrow.png" alt="flecha">
-                    <h3>BLOG UPDATES</h3>
-                </div>
+        <div class="blog clearfix">
+            <div class="blogUpdates clearfix">
+                <h3>BLOG UPDATES</h3>
                 <div class="subtitleInformation">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, non! Alias est non eligendi culpa expedita, vero eius ut tempora sapiente porro tempore aliquid architecto, cupiditate autem eos. Alias, molestias.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore earum, recusandae vel natus, pariatur quia reprehenderit, modi quo necessitatibus praesentium rerum assumenda illo. Aliquam maiores, harum id maxime aut eligendi!</p>
                 </div>
             </div>
-            <div class="media">
-                <div class="subtitle">
-                    <img src="/img/arrow.png" alt="flecha">
-                    <h3>CONEECT WITH US</h3>
-                </div>
+            <div class="media clearfix">
+                <h3>CONNECT WITH US</h3>
                 <div class="subtitleInformation">
-                    <a title="Red Social 1" href="https:/www.google.com"><img src="/img/icono-tw.png"  alt="Logo twitter"></a>
-                    <a title="Red Social 2" href="https:/www.google.com"><img src="/img/iocno-blue.png"  alt="Logo Facebook"></a>
-                    <a title="Red Social 3" href="https:/www.google.com"><img src="/img/icono-gray.png"  alt="Logo 3"></a>
-                    <a title="Red Social 4" href="https:/www.google.com"><img src="/img/icono-orange.png"  alt="Logo 4"></a>
+                    <a title="Red Social 1" href="https:/www.google.com"><img src="/Ejercicio/img/icono-tw.png"  alt="Logo twitter"></a>
+                    <a title="Red Social 2" href="https:/www.google.com"><img src="/Ejercicio/img/iocno-blue.png"  alt="Logo Facebook"></a>
+                    <a title="Red Social 3" href="https:/www.google.com"><img src="/Ejercicio/img/icono-gray.png"  alt="Logo 3"></a>
+                    <a title="Red Social 4" href="https:/www.google.com"><img src="/Ejercicio/img/icono-orange.png"  alt="Logo 4"></a>
                 </div>
             </div>
         </div>
-        <br>
-        <div class="footer">
+    </div>    
+    <div class="footer clearfix">
+        <div class="container-footer clearfix">
             <div class="information">
-                <a href="https:/www.google.com">Home</a>
-                <a href="https:/www.google.com">About us</a>
-                <a href="https:/www.google.com">Portfolio</a>
-                <a href="https:/www.google.com">Services</a>
-                <a href="https:/www.google.com">Blog</a>
-                <a href="https:/www.google.com">Contact us</a>
-                <br>
-                &copy; 2010 CreativeStudio. All Rights reserved
+                <div class="specifications">
+                    <a href="https:/www.google.com">Home</a>
+                    <a href="https:/www.google.com">About us</a>
+                    <a href="https:/www.google.com">Portfolio</a>
+                    <a href="https:/www.google.com">Services</a>
+                    <a href="https:/www.google.com">Blog</a>
+                    <a href="https:/www.google.com">Contact us</a>
+                </div>
+                <span>&copy; 2010 CreativeStudio. All Rights reserved</span>
             </div>
-            <div class="logo">
-                <img src="/img/logo.png" alt="logo de creative studio">
+            <div class="logo2 clearfix">
+                <img src="/Ejercicio/img/logo.png" alt="logo de creative studio">
             </div>
         </div>
     </div>
